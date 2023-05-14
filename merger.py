@@ -8,7 +8,7 @@ def pdf_merger(pdf_file):
     for pdf in pdf_file:
         print(pdf)
         merger.append(pdf)
-    merger.write('new.pdf')
+    merger.write('merged.pdf')
 
 
 pdf_merger(inputs)
