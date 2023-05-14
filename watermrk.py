@@ -9,5 +9,5 @@ for i in range(len(template.pages)):
     page.merge_page(watermark.pages[0])
     output.add_page(page)
 
-file = open('merged.pdf', 'wb')
+file = open('watermarked.pdf', 'wb')
 output.write(file)
