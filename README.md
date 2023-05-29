@@ -3,6 +3,7 @@ These scripts can watermark and merge any pdf files.
 ## Requirements
 - Python 3.x
 - PyPDF2 (`pip install PyPDF2`)
+- Or just run `$ pip install -r requirements.txt`
 ## Usage
 1. Open a command prompt or terminal and navigate to the directory where you saved the script.
 2. To merge two pdf files run `merger.py` using the following command: `python merger.py <first.pdf> <second.pdf>`
